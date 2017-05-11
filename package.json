@@ -1,29 +1,19 @@
 {
-  "author": "",
   "name": "travel-site",
-  "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mikecee0815/travel-site.git"
-  },
-  "engines": {
-    "node": "~0.6.9"
-  },
+  "version": "1.0.0",
   "dependencies": {
-    "bootstrap": "^3.3.7",
-    "jquery": "^3.2.1",
-    "normalize.css": "^6.0.0"
+    "jquery": "^2.2.3",
+    "normalize.css": "^4.1.1"
   },
   "devDependencies": {
-    "autoprefixer": "^6.7.7",
-    "browser-sync": "^2.18.8",
+    "autoprefixer": "^6.3.6",
+    "browser-sync": "^2.12.8",
     "gulp": "^3.9.1",
-    "gulp-postcss": "^6.4.0",
-    "gulp-watch": "^4.3.11",
-    "postcss-import": "^9.1.0",
-    "postcss-mixins": "^5.4.1",
-    "postcss-nested": "^1.0.1",
-    "postcss-simple-vars": "^3.1.0"
-  },
-  "optionalDependencies": {}
+    "gulp-postcss": "^6.1.1",
+    "gulp-watch": "^4.3.5",
+    "postcss-import": "^8.1.2",
+    "postcss-mixins": "^4.0.2",
+    "postcss-nested": "^1.0.0",
+    "postcss-simple-vars": "^1.2.0"
+  }
 }
