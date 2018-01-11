@@ -170,14 +170,12 @@
   </footer>
   <script src="/temp/scripts/App.js"></script>
   <script>
-    // var logo = document.querySelector(".site-header__logo ");
-    // logo.textContent = "Globe Travel Escapes"
-    // logo.classList.add('site-header__logo__graphic', 'icon', 'icon--clear-view-escapes');
-    document.querySelector(".site-header__logo").children[0].textContent = "mike cee";
-    document.querySelector(".site-header__btn-container").children[0].textContent="Lets Do This!";
-
-    var menu = document.querySelector('nav ul');
-    // ul.children.firstElementChild.textContent = "test";
+    
+  // document.querySelector(".site-header__btn-container").children[0].textContent="Lets Do This!";
+  var logo = document.querySelector('.site-header__logo');
+  logo.firstElementChild.textContent = "test";
+  var navBtn = document.querySelector('.site-header__btn-container');
+    navBtn.children[0].textContent = 'Lets Get In Touch';
     var menuItems = document.querySelector('ul');
     menuItems.children[0].firstElementChild.innerText="New Beginnings";
     menuItems.children[1].firstElementChild.innerText="Features";
